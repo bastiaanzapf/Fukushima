@@ -7,7 +7,8 @@ $a=<>;
 open COMMANDS, ">commands.gpl" or die $!;
 open DATA, ">data" or die $!;
 
-print COMMANDS "set terminal jpeg size 1024,768\n";
+print COMMANDS "set terminal jpeg xffffff x000000 size 1024,768\n";
+print COMMANDS "set object rectangle from screen 0,0 to screen 1,1 lw 0 fillstyle noborder behind\n";
 print COMMANDS "set output \"../temp2.jpeg\"\n";
 print COMMANDS "set xdata time\n";
 print COMMANDS "set timefmt \"%Y/%m/%d-%H:%M\"\n";
