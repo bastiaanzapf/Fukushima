@@ -1,0 +1,15 @@
+
+body {
+    font-family:sans;
+}
+
+body p {
+    margin-left:30%;
+    margin-right:30%;
+}
+
+body img.fullwidth {
+    margin-left:0;
+    margin-right:0;
+}
+
