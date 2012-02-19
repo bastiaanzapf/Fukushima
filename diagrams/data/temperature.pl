@@ -14,6 +14,8 @@ print COMMANDS "set xdata time\n";
 print COMMANDS "set key left top\n";
 
 print COMMANDS "set timefmt \"%Y/%m/%d-%H:%M\"\n";
+print COMMANDS "set format x \"%Y/%m/%d\"\n";
+
 print COMMANDS "set xrange [\"2012/02/01-00:00\":\"2012/02/20-00:00\"]\n";
 print COMMANDS "plot";
 
