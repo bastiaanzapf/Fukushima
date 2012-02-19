@@ -12,6 +12,7 @@ print COMMANDS "set object rectangle from screen 0,0 to screen 1.1,1.1 lw 0 fill
 print COMMANDS "set output \"../temp2.jpeg\"\n";
 print COMMANDS "set xdata time\n";
 print COMMANDS "set key left top\n";
+
 print COMMANDS "set timefmt \"%Y/%m/%d-%H:%M\"\n";
 print COMMANDS "set xrange [\"2012/02/01-00:00\":\"2012/02/20-00:00\"]\n";
 print COMMANDS "plot";
